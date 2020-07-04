@@ -1,0 +1,141 @@
+
+.nav_btn {
+	position: relative;
+	display: block;
+	vertical-align: middle;
+	float: right;
+	padding: 0.438em 0.625em 0.438em 0.625em;
+	line-height: 1.125em;
+	cursor: pointer;
+}
+.nav_menu .nav_menutxt {
+	display: block;
+	line-height: 1.188em;
+	float: left;
+}
+.nav_menu .nav_icon {
+	float: left;
+	margin: 0.188em 0 0 0.438em;
+}
+.nav_menu .nav_no-text {
+	margin: 0
+}
+.nav_menu .nav_icon-bar {
+	display: block;
+	width: 1.125em;
+	height: 0.125em;
+	-webkit-border-radius: 1px;
+	-moz-border-radius: 1px;
+	border-radius: 1px;
+	-webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+	-moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+	box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+}
+.nav_btn .nav_icon-bar + .nav_icon-bar {
+	margin-top: 0.188em
+}
+.nav_nav {
+	clear: both
+}
+.nav_nav ul, .nav_nav li {
+	display: block
+}
+.nav_nav .nav_arrow {
+	font-size: 0.8em;
+	margin: 0 0 0 0.4em;
+}
+.nav_nav .nav_item {
+	display: block;
+	cursor: pointer;
+}
+.nav_nav a {
+	display: block
+}
+.nav_nav .nav_item a {
+	display: inline
+}
+.nav_menu:before, .nav_menu:after {
+	content: " ";
+	display: table;
+}
+.nav_menu:after {
+	clear: both
+}
+
+.nav_menu {
+*zoom: 1
+}
+
+
+.nav_menu {
+	font-size: 16px;
+}
+
+.nav_btn {
+	margin: 5px 5px 6px;
+	text-decoration: none;
+	text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	background-color: #222222;
+}
+
+.nav_menu .slicknav_menutxt {
+	color: #FFF;
+	font-weight: bold;
+	text-shadow: 0 1px 3px #000;
+}
+
+.nav_menu .slicknav_icon-bar {
+	background-color: #f5f5f5;
+}
+.nav_menu {
+	background: #4c4c4c;
+	padding: 5px;
+}
+.nav_nav {
+	color: #fff;
+	margin: 0;
+	padding: 0;
+	font-size: 0.875em;
+}
+.nav_nav, .slicknav_nav ul {
+	list-style: none;
+	overflow: hidden;
+}
+.nav_nav ul {
+	padding: 0;
+	margin: 0 0 0 20px;
+}
+.nav_nav .slicknav_item {
+	padding: 5px 10px;
+	margin: 2px 5px;
+}
+.nav_nav a {
+	padding: 5px 10px;
+	margin: 2px 5px;
+	text-decoration: none;
+	color: #fff;
+}
+.nav_nav .slicknav_item a {
+	padding: 0;
+	margin: 0;
+}
+.nav_nav .slicknav_item:hover {
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	background: #ccc;
+	color: #fff;
+}
+.nav_nav a:hover {
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	background: #ccc;
+	color: #222;
+}
+.nav_nav .slicknav_txtnode {
+	margin-left: 15px;
+}
